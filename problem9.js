@@ -1,0 +1,11 @@
+const A = 1;
+const b = 5;
+const c = 6;
+let x;
+x = Math.sqrt(b * b - 4 * A * c);
+let y;
+y = 2 * A;
+var root1 = (-b + x) / y;
+var root2 = (-b - x) / y;
+console.log(root1.toFixed(2));
+console.log(root2.toFixed(2));
